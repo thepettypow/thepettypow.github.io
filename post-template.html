@@ -3,36 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>POW WORLD</title>
+    <title>Blog Post - Abolfazl Naderi</title>
     <style>
         body, html {
             margin: 0;
-            padding: 0;
-            height: 100%;
+            font-family: Arial, sans-serif;
             display: flex;
-            justify-content: center;
+            flex-direction: column;
             align-items: center;
             background-color: #1a1a1a;
             color: #fff;
-            font-family: Arial, sans-serif;
-        }
-
-        .container {
+            height: 100%;
+            width: 100%;
             text-align: center;
         }
 
-        header {
-            margin-bottom: 50px;
+        .container {
+            width: 100%;
+            max-width: 800px;
+            padding: 20px;
+            background-color: #2a2a2a;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            margin: 20px;
+            position: relative;
         }
 
-        header h1 {
+        h1, h2 {
             color: #b3b3b3;
             position: relative;
             display: inline-block;
             overflow: hidden;
+            margin: 20px 0;
         }
 
-        header h1::before, header h1::after {
+        h1::before, h2::before,
+        h1::after, h2::after {
             content: attr(data-text);
             position: absolute;
             top: 0;
@@ -42,26 +47,16 @@
             overflow: hidden;
         }
 
-        header h1::before {
+        h1::before, h2::before {
             left: -2px;
             text-shadow: 1px 0 red;
             animation: glitch1 1s infinite linear alternate-reverse;
         }
 
-        header h1::after {
+        h1::after, h2::after {
             left: 2px;
             text-shadow: -1px 0 blue;
             animation: glitch2 1.5s infinite linear alternate-reverse;
-        }
-		footer {
-            width: 100%;
-            padding: 10px;
-            position: absolute;
-            bottom: 0;
-            left: 0;
-            background-color: transparent; /* No background */
-            color: #b3b3b3;
-            text-align: center;
         }
 
         @keyframes glitch1 {
@@ -158,55 +153,47 @@
             }
         }
 
-        .menu a {
-            display: block;
-            margin: 10px;
-            padding: 10px 20px;
-            text-decoration: none;
-            color: #fff;
-            background-color: #333;
-            border: 2px solid #fff;
-            transition: background-color 0.3s, border-color 0.3s;
-        }
-
-        .menu a:hover {
-            background-color: #444;
-            border-color: #b3b3b3;
+        footer {
+            width: 100%;
+            padding: 10px;
+            background-color: transparent; /* No background */
+            color: #b3b3b3;
+            text-align: center;
+            position: absolute;
+            bottom: 0;
+            left: 0;
         }
 
         @media (max-width: 600px) {
-            header h1 {
-                font-size: 1.5em;
+            .container {
+                width: 95%;
+                padding: 15px;
+                margin: 10px;
             }
 
-            .menu a {
-                padding: 8px 16px;
+            h1, h2 {
+                font-size: 1.5em;
             }
         }
 
         @media (max-width: 400px) {
-            header h1 {
+            h1, h2 {
                 font-size: 1.2em;
-            }
-
-            .menu a {
-                padding: 6px 12px;
             }
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <header>
-            <h1 data-text="WELCOME TO POW WORLD">WELCOME TO POW WORLD</h1>
-        </header>
-        <nav class="menu">
-            <a href="blog.html">Blog</a>
-            <a href="cv.html">Resume</a>
-        </nav>
+        <h1 data-text="Post Title">Post Title</h1>
+        <h4></h4>
+        <h2 data-text="Subtitle">Subtitle</h2>
+        <p>
+            Just a template for test the blog
+        </p>
     </div>
-	<footer>
-		&copy; 2024 Petty Pow
-	</footer>
+    <footer>
+        &copy; 2024 Petty Pow
+    </footer>
 </body>
 </html>

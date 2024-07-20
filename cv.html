@@ -3,36 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>POW WORLD</title>
+    <title>Resume - Abolfazl Naderi</title>
     <style>
         body, html {
             margin: 0;
-            padding: 0;
-            height: 100%;
+            font-family: Arial, sans-serif;
             display: flex;
             justify-content: center;
-            align-items: center;
+            align-items: flex-start;
             background-color: #1a1a1a;
             color: #fff;
-            font-family: Arial, sans-serif;
         }
 
-        .container {
+        .cv {
+            width: 90%;
+            max-width: 800px;
+            padding: 20px;
+            background-color: #2a2a2a;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            margin: 20px;
+            overflow: auto;
+        }
+        footer {
+            width: 100%;
+            padding: 10px;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            background-color: transparent; /* No background */
+            color: #b3b3b3;
             text-align: center;
         }
 
-        header {
-            margin-bottom: 50px;
-        }
-
-        header h1 {
+        h1, h2, h3 {
             color: #b3b3b3;
             position: relative;
             display: inline-block;
             overflow: hidden;
+            margin: 20px 0;
         }
 
-        header h1::before, header h1::after {
+        h1::before, h2::before, h3::before,
+        h1::after, h2::after, h3::after {
             content: attr(data-text);
             position: absolute;
             top: 0;
@@ -42,26 +54,16 @@
             overflow: hidden;
         }
 
-        header h1::before {
+        h1::before, h2::before, h3::before {
             left: -2px;
             text-shadow: 1px 0 red;
             animation: glitch1 1s infinite linear alternate-reverse;
         }
 
-        header h1::after {
+        h1::after, h2::after, h3::after {
             left: 2px;
             text-shadow: -1px 0 blue;
             animation: glitch2 1.5s infinite linear alternate-reverse;
-        }
-		footer {
-            width: 100%;
-            padding: 10px;
-            position: absolute;
-            bottom: 0;
-            left: 0;
-            background-color: transparent; /* No background */
-            color: #b3b3b3;
-            text-align: center;
         }
 
         @keyframes glitch1 {
@@ -158,9 +160,26 @@
             }
         }
 
-        .menu a {
-            display: block;
-            margin: 10px;
+        p {
+            margin: 10px 0;
+        }
+
+        .section {
+            margin-bottom: 20px;
+        }
+
+        ul {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+
+        li {
+            margin: 5px 0;
+        }
+
+        .back-home {
+            display: inline-block;
+            margin-top: 30px;
             padding: 10px 20px;
             text-decoration: none;
             color: #fff;
@@ -169,43 +188,80 @@
             transition: background-color 0.3s, border-color 0.3s;
         }
 
-        .menu a:hover {
+        .back-home:hover {
             background-color: #444;
             border-color: #b3b3b3;
         }
 
         @media (max-width: 600px) {
-            header h1 {
-                font-size: 1.5em;
+            .cv {
+                width: 95%;
+                padding: 15px;
+                margin: 10px;
             }
 
-            .menu a {
-                padding: 8px 16px;
+            h1, h2, h3 {
+                font-size: 1.5em;
             }
         }
 
         @media (max-width: 400px) {
-            header h1 {
+            h1, h2, h3 {
                 font-size: 1.2em;
-            }
-
-            .menu a {
-                padding: 6px 12px;
             }
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <header>
-            <h1 data-text="WELCOME TO POW WORLD">WELCOME TO POW WORLD</h1>
-        </header>
-        <nav class="menu">
-            <a href="blog.html">Blog</a>
-            <a href="cv.html">Resume</a>
-        </nav>
+    <div class="cv">
+        <h1 data-text="Abolfazl Naderi">Abolfazl Naderi</h1>
+        <div class="section">
+            <h2 data-text="About">About</h2>
+            <p>“Petty Pow” | 18 Y.O</p>
+            <p>Interested in Security, Linux Systems, Coding, DevOps and All about Computers.</p>
+        </div>
+        <div class="section">
+            <h2 data-text="Experience">Experience</h2>
+            <ul>
+                <li>Personal Automations Using Python</li>
+                <li>Automated Server Config Using Bash</li>
+                <li>Web Scraping Tools Using Python</li>
+                <li>Headless Browsing and Data Mining Using Python</li>
+                <li>System Administration</li>
+                <li>DevOps Intern</li>
+                <li>HelpDesk</li>
+            </ul>
+        </div>
+        <div class="section">
+            <h2 data-text="Familiar">Familiar</h2>
+            <ul>
+                <li>Linux</li>
+                <li>Python</li>
+                <li>Django</li>
+                <li>Flask</li>
+                <li>Bash Scripting</li>
+                <li>SQL and NoSQL (MongoDB) DataBase</li>
+                <li>Web Server Configuration</li>
+                <li>Networking Basics (Network+)</li>
+                <li>Git</li>
+                <li>Docker</li>
+            </ul>
+        </div>
+        <div class="section">
+            <h2 data-text="Certificates">Certificates</h2>
+            <ul>
+                <li>Vorivex Hunting Class</li>
+                <li>Sans Sec 504</li>
+                <li>CEH v10</li>
+            </ul>
+        </div>
+        <div class="section">
+            <h2 data-text="Languages">Languages</h2>
+            <p>English (Fluent)</p>
+        </div>
+        <a class="back-home" href="index.html">Back to Home</a>
     </div>
-	<footer>
+    <footer>
 		&copy; 2024 Petty Pow
 	</footer>
 </body>
