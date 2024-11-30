@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Terminal</title>
+    <link>//localhost:1313/posts/</link>
+    <description>Recent content in Posts on Terminal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 30 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hey</title>
+      <link>//localhost:1313/posts/hey/</link>
+      <pubDate>Sat, 30 Nov 2024 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/posts/hey/</guid>
+      <description>&lt;h3 id=&#34;its-just-the-start&#34;&gt;It’s Just the Start&lt;/h3&gt;
+&lt;p&gt;Alright, here we go. First blog post. The &lt;em&gt;kickoff&lt;/em&gt;. Gotta admit, it feels kinda surreal—like stepping onto a blank stage where the spotlight’s waiting, but you still haven’t decided what to say. Yeah, that’s where we’re at right now.&lt;/p&gt;
+&lt;p&gt;See, this isn’t just some random &amp;ldquo;let’s-start-a-blog&amp;rdquo; moment. This? This is personal. This is the beginning of a journey that’s been brewing in the back of my mind for a while now. It’s about sharing ideas, creating something new, and maybe—just maybe—building a community of like-minded folks who get it.&lt;/p&gt;</description>
+      <content>&lt;h3 id=&#34;its-just-the-start&#34;&gt;It’s Just the Start&lt;/h3&gt;
+&lt;p&gt;Alright, here we go. First blog post. The &lt;em&gt;kickoff&lt;/em&gt;. Gotta admit, it feels kinda surreal—like stepping onto a blank stage where the spotlight’s waiting, but you still haven’t decided what to say. Yeah, that’s where we’re at right now.&lt;/p&gt;
+&lt;p&gt;See, this isn’t just some random &amp;ldquo;let’s-start-a-blog&amp;rdquo; moment. This? This is personal. This is the beginning of a journey that’s been brewing in the back of my mind for a while now. It’s about sharing ideas, creating something new, and maybe—just maybe—building a community of like-minded folks who get it.&lt;/p&gt;
+&lt;p&gt;For those of you new here (which, let’s be real, is &lt;em&gt;everyone&lt;/em&gt; at this point), let me drop some context. My name’s &lt;strong&gt;petty pow&lt;/strong&gt;, but you can call me whatever fits the vibe. I’m the kind of person who sees life like Tony Stark sees tech—full of untapped potential waiting to be turned into something extraordinary. From coding my own projects to dreaming up ways to push the boundaries of creativity and technology, this blog’s gonna be a space where all of that gets unpacked.&lt;/p&gt;
+&lt;p&gt;I’m not here to preach, and I’m definitely not here to pretend I have all the answers. But if there’s one thing I know for sure, it’s that every big idea, every breakthrough, starts with &lt;em&gt;something&lt;/em&gt;. Even if it’s messy, even if it’s small. And today? This is that start.&lt;/p&gt;
+&lt;p&gt;So, welcome. Let’s see where this goes.&lt;/p&gt;
+</content>
+    </item>
+    
+  </channel>
+</rss>
