@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Terminal</title>
+    <title>pow blog</title>
     <link>//localhost:1313/</link>
-    <description>Recent content on Terminal</description>
+    <description>Recent content on pow blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Sat, 30 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
@@ -234,8 +234,8 @@ Link: [GitHub Link]&lt;/li&gt;
 
 
   &lt;div class=&#34;collapsable-code&#34;&gt;
-    &lt;input id=&#34;197438526&#34; type=&#34;checkbox&#34;  /&gt;
-    &lt;label for=&#34;197438526&#34;&gt;
+    &lt;input id=&#34;821954763&#34; type=&#34;checkbox&#34;  /&gt;
+    &lt;label for=&#34;821954763&#34;&gt;
       &lt;span class=&#34;collapsable-code__language&#34;&gt;css&lt;/span&gt;
       &lt;span class=&#34;collapsable-code__title&#34;&gt;Hey, this is a code block title&lt;/span&gt;
       &lt;span class=&#34;collapsable-code__toggle&#34; data-label-expand=&#34;△&#34; data-label-collapse=&#34;▽&#34;&gt;&lt;/span&gt;

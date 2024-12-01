@@ -63,7 +63,7 @@ paginate = 5
 
     [languages.en.params]
       subtitle = "pow world"
-      owner = ""
+      owner = "petty pow"
       keywords = ""
       copyright = ""
       menuMore = "Show more"
