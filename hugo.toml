@@ -20,7 +20,7 @@ paginate = 5
   showLanguageSelector = false
 
   # set theme to full screen width
-  fullWidthTheme = true
+  fullWidthTheme = false
 
   # center theme with default width
   centerTheme = true
@@ -59,7 +59,7 @@ paginate = 5
 [languages]
   [languages.en]
     languageName = "English"
-    title = "Terminal"
+    title = "pow blog"
 
     [languages.en.params]
       subtitle = "pow world"
