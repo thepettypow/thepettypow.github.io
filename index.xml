@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Terminal</title><link>/</link><description>Recent content on Terminal</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sat, 30 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml"/><item><title>About Me</title><link>/about/</link><pubDate>Sat, 30 Nov 2024 00:00:00 +0000</pubDate><guid>/about/</guid><description>&lt;h3 id="about-me">About Me&lt;/h3>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>pow blog</title><link>/</link><description>Recent content on pow blog</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sat, 30 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml"/><item><title>About Me</title><link>/about/</link><pubDate>Sat, 30 Nov 2024 00:00:00 +0000</pubDate><guid>/about/</guid><description>&lt;h3 id="about-me">About Me&lt;/h3>
 &lt;p>Hey, I’m &lt;strong>petty pow&lt;/strong>, and this little corner of the internet? It’s where I get to be unapologetically me.&lt;/p>
 &lt;p>This blog is like my personal journal—minus the lock and key. It’s where I let my thoughts wander, dive into the things that fascinate me, and sometimes just rant about life, tech, art, or whatever’s buzzing around in my head.&lt;/p>
 &lt;p>If you’re here, chances are we might vibe. Maybe you’re into pushing limits, questioning the norm, or just soaking up the chaos of it all. That’s cool, ‘cause that’s exactly what I’m about.&lt;/p></description><content>&lt;h3 id="about-me">About Me&lt;/h3>
@@ -177,8 +177,8 @@ Link: [GitHub Link]&lt;/li>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&amp;lt;/&lt;span style="color:#f92672">html&lt;/span>&amp;gt;&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>
 &lt;h3 id="code-block-with-custom-built-in---code---shortcode">Code block with custom built-in &lt;code>{{ &amp;lt; code &amp;gt; }}&lt;/code> shortcode&lt;/h3>
 &lt;div class="collapsable-code">
-&lt;input id="342659178" type="checkbox" />
-&lt;label for="342659178">
+&lt;input id="237841659" type="checkbox" />
+&lt;label for="237841659">
 &lt;span class="collapsable-code__language">css&lt;/span>
 &lt;span class="collapsable-code__title">Hey, this is a code block title&lt;/span>
 &lt;span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽">&lt;/span>
