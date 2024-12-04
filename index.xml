@@ -177,8 +177,8 @@ Link: [GitHub Link]&lt;/li>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&amp;lt;/&lt;span style="color:#f92672">html&lt;/span>&amp;gt;&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>
 &lt;h3 id="code-block-with-custom-built-in---code---shortcode">Code block with custom built-in &lt;code>{{ &amp;lt; code &amp;gt; }}&lt;/code> shortcode&lt;/h3>
 &lt;div class="collapsable-code">
-&lt;input id="354798621" type="checkbox" />
-&lt;label for="354798621">
+&lt;input id="691354782" type="checkbox" />
+&lt;label for="691354782">
 &lt;span class="collapsable-code__language">css&lt;/span>
 &lt;span class="collapsable-code__title">Hey, this is a code block title&lt;/span>
 &lt;span class="collapsable-code__toggle" data-label-expand="△" data-label-collapse="▽">&lt;/span>
