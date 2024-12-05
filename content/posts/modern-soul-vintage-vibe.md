@@ -17,7 +17,7 @@ Shoutout to my guy A.M for coining the phrase that perfectly sums up how I feel 
 
 Let me tell you, being part of Gen Z but not *feeling* like it is straight-up weird. Like, technically, I’m one of them—we grew up with Wi-Fi and smartphones, we know all the memes, we’ve seen every dumb TikTok trends shit, but I don’t vibe with it. At all.  
 
-While most people my age are busy with whatever TikTok decides is cool this week, I’m out here geeking over old movies, flipping through vinyl records, and digging into random sh*t that feels like it actually has a soul. And honestly? I think most of what my generation’s into is garbage.  
+While most people my age are busy with whatever TikTok or Instagram decides is cool this week, I’m out here geeking over old movies, flipping through vinyl records, and digging into random sh*t that feels like it actually has a soul. And honestly? I think most of what my generation’s into is garbage.  
 
 ### What Even Is This?  
 Social media’s just a circus. Everyone’s trying so hard to be funny or deep or whatever the algorithm wants them to be. And yeah, I scroll sometimes too, but halfway through, I’m like, *What the hell am I even looking at?* The content feels like junk food—fun for a second but leaves you feeling kinda gross after.  
