@@ -28,5 +28,4 @@ Date of Birth: 23 feb 2006 | Nationality: Iran
 
 ### **Projects**
 
-- **[Project Name]** – [Brief Description of Project]  
-    Link: [GitHub Link]
+You can find My projects on my [GitHub](https://github.com/thepettypow/)
