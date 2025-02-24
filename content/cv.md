@@ -15,12 +15,28 @@ Date of Birth: 23 feb 2006 | Nationality: Iran
 
 - High School Diploma in Mathematics
 
-### **Skills**
+### **What I Know**
 
-- Programming Languages: [Python, Perl, Ruby]
-- Tools and Technologies: [Docker, Git, Linux, MongoDB, MySQL]
-- Languages: [English – Fluent, Italian – Intermediate]
+- OWASP Top 10
+- LPIC 1,2 (self taught - no cert)
+- Bug Bounty Hunting (not much)
+- Design Automation Systems
 
+### **Langueges I worked with**
+
+- Python (main)
+- Go
+- ruby (used in security research)
+- nodeJS (used in security research)
+- rust (just for fun)
+
+
+### **DataBases I worked with**
+
+- sqlite
+- MySQL
+- MongoDB
+- Redis
 
 ### **Courses and Certifications**
 
