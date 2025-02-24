@@ -78,11 +78,27 @@
 &lt;ul>
 &lt;li>High School Diploma in Mathematics&lt;/li>
 &lt;/ul>
-&lt;h3 id="skills">&lt;strong>Skills&lt;/strong>&lt;/h3>
+&lt;h3 id="what-i-know">&lt;strong>What I Know&lt;/strong>&lt;/h3>
 &lt;ul>
-&lt;li>Programming Languages: [Python, Perl, Ruby]&lt;/li>
-&lt;li>Tools and Technologies: [Docker, Git, Linux, MongoDB, MySQL]&lt;/li>
-&lt;li>Languages: [English – Fluent, Italian – Intermediate]&lt;/li>
+&lt;li>OWASP Top 10&lt;/li>
+&lt;li>LPIC 1,2 (self taught - no cert)&lt;/li>
+&lt;li>Bug Bounty Hunting (not much)&lt;/li>
+&lt;li>Design Automation Systems&lt;/li>
+&lt;/ul>
+&lt;h3 id="langueges-i-worked-with">&lt;strong>Langueges I worked with&lt;/strong>&lt;/h3>
+&lt;ul>
+&lt;li>Python (main)&lt;/li>
+&lt;li>Go&lt;/li>
+&lt;li>ruby (used in security research)&lt;/li>
+&lt;li>nodeJS (used in security research)&lt;/li>
+&lt;li>rust (just for fun)&lt;/li>
+&lt;/ul>
+&lt;h3 id="databases-i-worked-with">&lt;strong>DataBases I worked with&lt;/strong>&lt;/h3>
+&lt;ul>
+&lt;li>sqlite&lt;/li>
+&lt;li>MySQL&lt;/li>
+&lt;li>MongoDB&lt;/li>
+&lt;li>Redis&lt;/li>
 &lt;/ul>
 &lt;h3 id="courses-and-certifications">&lt;strong>Courses and Certifications&lt;/strong>&lt;/h3>
 &lt;ul>
@@ -96,11 +112,27 @@
 &lt;ul>
 &lt;li>High School Diploma in Mathematics&lt;/li>
 &lt;/ul>
-&lt;h3 id="skills">&lt;strong>Skills&lt;/strong>&lt;/h3>
+&lt;h3 id="what-i-know">&lt;strong>What I Know&lt;/strong>&lt;/h3>
 &lt;ul>
-&lt;li>Programming Languages: [Python, Perl, Ruby]&lt;/li>
-&lt;li>Tools and Technologies: [Docker, Git, Linux, MongoDB, MySQL]&lt;/li>
-&lt;li>Languages: [English – Fluent, Italian – Intermediate]&lt;/li>
+&lt;li>OWASP Top 10&lt;/li>
+&lt;li>LPIC 1,2 (self taught - no cert)&lt;/li>
+&lt;li>Bug Bounty Hunting (not much)&lt;/li>
+&lt;li>Design Automation Systems&lt;/li>
+&lt;/ul>
+&lt;h3 id="langueges-i-worked-with">&lt;strong>Langueges I worked with&lt;/strong>&lt;/h3>
+&lt;ul>
+&lt;li>Python (main)&lt;/li>
+&lt;li>Go&lt;/li>
+&lt;li>ruby (used in security research)&lt;/li>
+&lt;li>nodeJS (used in security research)&lt;/li>
+&lt;li>rust (just for fun)&lt;/li>
+&lt;/ul>
+&lt;h3 id="databases-i-worked-with">&lt;strong>DataBases I worked with&lt;/strong>&lt;/h3>
+&lt;ul>
+&lt;li>sqlite&lt;/li>
+&lt;li>MySQL&lt;/li>
+&lt;li>MongoDB&lt;/li>
+&lt;li>Redis&lt;/li>
 &lt;/ul>
 &lt;h3 id="courses-and-certifications">&lt;strong>Courses and Certifications&lt;/strong>&lt;/h3>
 &lt;ul>
