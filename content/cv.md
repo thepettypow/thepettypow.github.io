@@ -15,14 +15,15 @@ Date of Birth: 23 feb 2006 | Nationality: Iran
 
 - High School Diploma in Mathematics
 
-### **What I Know**
+### Knowledge:
 
 - OWASP Top 10
 - LPIC 1,2 (self taught - no cert)
 - Bug Bounty Hunting (not much)
 - Design Automation Systems
+- Some Back-End Stuff With Django, Flask and Go
 
-### **Langueges I worked with**
+### Langueges I worked with:
 
 - Python (main)
 - Go
@@ -31,12 +32,19 @@ Date of Birth: 23 feb 2006 | Nationality: Iran
 - rust (just for fun)
 
 
-### **DataBases I worked with**
+### DataBases I worked with:
 
 - sqlite
 - MySQL
+- MariaDB
 - MongoDB
 - Redis
+
+
+### Things I hate:
+
+- Front-End Stuff
+- WordPress
 
 ### **Courses and Certifications**
 
