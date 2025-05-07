@@ -410,6 +410,36 @@ body {
     width: 200px;
     height: 200px;
   }
+
+  /* Make header solid in mobile view */
+  header {
+    background-color: var(--black) !important;
+    backdrop-filter: none !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
+  /* Center all sections content on mobile */
+  section {
+    text-align: center;
+  }
+
+  /* Ensure proper centering of flex items */
+  .container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin: 0 auto;
+  }
+
+  /* Adjust flex layouts for mobile */
+  [class*="flex"] {
+    justify-content: center;
+  }
+
+  /* Make sure images are centered */
+  img {
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 /* Scrollbar */
