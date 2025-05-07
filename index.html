@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Petty Pow | Developer & DevOps Engineer</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-black text-white font-inter">
+    <!-- Gradient Background -->
+    <div class="gradient-bg"></div>
+    
+    <!-- Noise Overlay -->
+    <div class="noise-overlay"></div>
+    
+    <!-- Header -->
+    <header class="fixed top-0 left-0 w-full z-50 backdrop-blur-lg bg-black bg-opacity-20 border-b border-gray-800">
+        <div class="container mx-auto px-6 py-4">
+            <nav class="flex justify-between items-center">
+                <div class="logo">
+                    <a href="#" class="text-2xl font-bold text-red-600">Petty Pow</a>
+                </div>
+                <div class="hidden md:flex space-x-8">
+                    <a href="#home" class="nav-link">Home</a>
+                    <a href="#about" class="nav-link">About</a>
+                    <a href="#skills" class="nav-link">Skills</a>
+                    <a href="#projects" class="nav-link">Projects</a>
+                    <a href="#contact" class="nav-link">Contact</a>
+                </div>
+                <div class="md:hidden">
+                    <button id="menu-toggle" class="text-white">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                </div>
+            </nav>
+        </div>
+    </header>
+    
+    <!-- Mobile Menu -->
+    <div id="mobile-menu" class="fixed inset-0 bg-black bg-opacity-95 z-40 hidden flex-col justify-center items-center">
+        <button id="close-menu" class="absolute top-6 right-6 text-white text-2xl">
+            <i class="fas fa-times"></i>
+        </button>
+        <div class="flex flex-col space-y-8 text-center">
+            <a href="#home" class="mobile-nav-link">Home</a>
+            <a href="#about" class="mobile-nav-link">About</a>
+            <a href="#skills" class="mobile-nav-link">Skills</a>
+            <a href="#projects" class="mobile-nav-link">Projects</a>
+            <a href="#contact" class="mobile-nav-link">Contact</a>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <section id="home" class="min-h-screen flex items-center justify-center relative overflow-hidden">
+        <div class="container mx-auto px-6 z-10">
+            <div class="text-center md:text-left max-w-4xl mx-auto md:mx-0">
+                <h1 class="text-6xl md:text-8xl font-bold mb-6 hero-text">Petty Pow</h1>
+                <p class="text-xl md:text-2xl text-gray-300 mb-8 leading-relaxed">
+                    I craft innovative solutions at the intersection of <span class="text-red-500 font-semibold">software</span>, <span class="text-red-500 font-semibold">hardware</span>, and <span class="text-red-500 font-semibold">everything</span>.
+                </p>
+                <div class="text-xl md:text-2xl text-gray-300 mb-12">
+                    <span id="typed" class="text-red-500"></span>
+                </div>
+                <div class="flex flex-wrap gap-6 mt-8">
+                    <a href="mailto:thepettypow@gmail.com" class="text-red-500 hover:text-red-400 transition-colors flex items-center gap-2">
+                        <i class="fas fa-envelope text-2xl"></i>
+                        <span class="text-lg">thepettypow@gmail.com</span>
+                    </a>
+                    <a href="https://github.com/thepettypow" target="_blank" class="text-red-500 hover:text-red-400 transition-colors flex items-center gap-2">
+                        <i class="fab fa-github text-2xl"></i>
+                        <span class="text-lg">github.com/thepettypow</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Floating Elements -->
+        <div class="floating-elements">
+            <div class="floating-element" style="--i:1;"></div>
+            <div class="floating-element" style="--i:2;"></div>
+            <div class="floating-element" style="--i:3;"></div>
+            <div class="floating-element" style="--i:4;"></div>
+            <div class="floating-element" style="--i:5;"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-24 relative">
+        <div class="container mx-auto px-6">
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+                <div class="section-line"></div>
+            </div>
+            
+            <div class="grid md:grid-cols-2 gap-12 items-center mt-16">
+                <div class="glass-card p-8">
+                    <p class="text-lg leading-relaxed">
+                        I'm a versatile tech professional with expertise spanning software development, DevOps practices, hardware engineering, and IoT solutions. My passion lies in creating efficient and innovative solutions that bridge the gap between software and hardware.
+                    </p>
+                    <p class="text-lg leading-relaxed mt-4">
+                        With a deep understanding of both programming and infrastructure, I deliver comprehensive technical solutions that are scalable, maintainable, and future-proof.
+                    </p>
+                    <div class="mt-8 flex space-x-4">
+                        <a href="#" class="social-icon">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="#" class="social-icon">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="#" class="social-icon">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="relative">
+                    <div class="tech-sphere"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-24 relative bg-gray-900 bg-opacity-30">
+        <div class="container mx-auto px-6">
+            <div class="section-header">
+                <h2 class="section-title">Skills</h2>
+                <div class="section-line"></div>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mt-16">
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3 class="skill-title">Programming</h3>
+                    <ul class="skill-list">
+                        <li>Python</li>
+                        <li>JavaScript/TypeScript</li>
+                        <li>Go</li>
+                        <li>C/C++</li>
+                        <li>Rust</li>
+                    </ul>
+                </div>
+                
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-server"></i>
+                    </div>
+                    <h3 class="skill-title">DevOps</h3>
+                    <ul class="skill-list">
+                        <li>Docker & Kubernetes</li>
+                        <li>CI/CD Pipelines</li>
+                        <li>AWS/Azure/GCP</li>
+                        <li>Infrastructure as Code</li>
+                        <li>Monitoring & Logging</li>
+                    </ul>
+                </div>
+                
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-microchip"></i>
+                    </div>
+                    <h3 class="skill-title">Hardware</h3>
+                    <ul class="skill-list">
+                        <li>PCB Design</li>
+                        <li>Embedded Systems</li>
+                        <li>Circuit Design</li>
+                        <li>3D Printing</li>
+                        <li>Prototyping</li>
+                    </ul>
+                </div>
+                
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-network-wired"></i>
+                    </div>
+                    <h3 class="skill-title">IoT</h3>
+                    <ul class="skill-list">
+                        <li>Sensor Networks</li>
+                        <li>MQTT/CoAP</li>
+                        <li>ESP32/Arduino</li>
+                        <li>Edge Computing</li>
+                        <li>IoT Security</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-24 relative">
+        <div class="container mx-auto px-6">
+            <div class="section-header">
+                <h2 class="section-title">Projects</h2>
+                <div class="section-line"></div>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-16">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1558346490-a72e53ae2d4f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1350&q=80" alt="Smart Home Project">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Smart Home Ecosystem</h3>
+                        <p class="project-description">
+                            A comprehensive IoT solution for home automation with custom hardware, mobile app, and cloud integration.
+                        </p>
+                        <div class="project-tech">
+                            <span>IoT</span>
+                            <span>React</span>
+                            <span>Node.js</span>
+                            <span>ESP32</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                            <a href="#" class="project-link">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1607799279861-4dd421887fb3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1350&q=80" alt="Cloud Infrastructure">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Cloud Infrastructure Platform</h3>
+                        <p class="project-description">
+                            Scalable cloud infrastructure with Kubernetes, microservices, and automated deployment pipelines.
+                        </p>
+                        <div class="project-tech">
+                            <span>Kubernetes</span>
+                            <span>Terraform</span>
+                            <span>Go</span>
+                            <span>AWS</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                            <a href="#" class="project-link">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1581092921461-39b9d08a9b21?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1350&q=80" alt="Industrial IoT">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Industrial IoT Platform</h3>
+                        <p class="project-description">
+                            End-to-end IoT platform for industrial monitoring and control with real-time analytics.
+                        </p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>MQTT</span>
+                            <span>React</span>
+                            <span>TensorFlow</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                            <a href="#" class="project-link">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-24 relative bg-gray-900 bg-opacity-30">
+        <div class="container mx-auto px-6">
+            <div class="section-header">
+                <h2 class="section-title">Contact Me</h2>
+                <div class="section-line"></div>
+            </div>
+            
+            <div class="max-w-2xl mx-auto mt-16">
+                <div class="glass-card p-8">
+                    <form id="contact-form" class="space-y-6">
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                            <div class="form-group">
+                                <label for="name" class="form-label">Name</label>
+                                <input type="text" id="name" class="form-input" placeholder="Your name">
+                            </div>
+                            <div class="form-group">
+                                <label for="email" class="form-label">Email</label>
+                                <input type="email" id="email" class="form-input" placeholder="Your email">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject" class="form-label">Subject</label>
+                            <input type="text" id="subject" class="form-input" placeholder="Subject">
+                        </div>
+                        <div class="form-group">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea id="message" rows="5" class="form-input" placeholder="Your message"></textarea>
+                        </div>
+                        <button type="submit" class="btn-primary w-full">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-8 bg-black relative">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="text-center md:text-left mb-4 md:mb-0">
+                    <a href="#" class="text-2xl font-bold text-red-600">Petty Pow</a>
+                    <p class="text-gray-400 mt-2">Developer & DevOps Engineer</p>
+                </div>
+                <div class="flex space-x-4">
+                    <a href="#" class="social-icon">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="#" class="social-icon">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="#" class="social-icon">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
+                <p>&copy; 2024 Petty Pow. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
